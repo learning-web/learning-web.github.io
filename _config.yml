@@ -78,7 +78,6 @@ gems:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # Include these files to your production _site
-include: ['_projects']
 include: ['_pages']
 
 
