@@ -7,43 +7,11 @@ layout: default
 
 
 
-
-
-<h3 class="section-title" style="margin-top:80px;">Skills</h3>
-<dl class="experience">
-    {% for skill in site.data.skills %}
-        <dt>
-            <p class="title"><a href="/{{ skill.slug }}">{{ skill.topic }}</a></p>
-
-			      <div class="wrapper2">
-					<div class="progress-bar2">
-				<span class="progress-bar-fill" style="width: {{ skill.klevel }};"></span>
-					</div>
-				</div>
-		<p class="company" style="float-left;font-size:12px;margin-top:0px;">knowledge </p>
-            
-				<div class="wrapper2">
-					<div class="progress-bar2">
-				<span class="progress-bar-fill" style="width: {{ skill.slevel }};"></span>
-					</div>
-				</div>
-		<p class="company" style="float-left;font-size:12px;margin-top:0px;">skill </p>		
-		    
-	  
-            
-        </dt><!--
-        --><dd>
-            <p>{{ skill.description }}</p>
-        </dd>
-    {% endfor %}
-</dl>
-
-
-<h3 class="section-title">Wisdom</h3>
+<h3 class="section-title">Projects</h3>
 <dl class="education">
-    {% for meta in site.data.metas %}
+    {% for meta in site.data.projects %}
         <dt>
-		<p class="title"><a href="/{{ meta.slug }}">{{ meta.topic }}</a></p>
+		<p class="title"><a href="/{{ meta.slug }}">{{ projects.topic }}</a></p>
 			      <div class="wrapper2">
 					<div class="progress-bar2">
 				<span class="progress-bar-fill" style="width: {{ meta.level }};"></span>
