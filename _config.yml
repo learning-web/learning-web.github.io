@@ -79,6 +79,7 @@ gems:
 
 # Include these files to your production _site
 include: ['_projects']
+include: ['_pages']
 
 
 # Exclude these files from your production _site
