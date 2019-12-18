@@ -7,6 +7,10 @@
 
 @import "reset";
 @import "variables";
+@import "resume";
+@import "layout";
+@import "grid";
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -23,12 +27,22 @@ body {
   color: $darkGray;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
+.site-name h1 {
+  font-size: 25px;
+  text-transform: none;
+  letter-spacing: 1px;
+  a {
+    color: black;
+  }
 }
+
+
+.site-name a {
+
+    color: black !important;
+ 
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
@@ -45,18 +59,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
-  a {
-    color: inherit;
-  }
+  font-size: 35px;
 }
 
 h2 {
   font-size: 24px;
+  text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: ($spacer * 2);
+    text-align: center;
+    position: relative;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        margin-left: -25px;
+        width: 50px;
+        height: 1px;
+        background: #222;
+    }
 }
 
 h3 {
-  font-size: 20px;
+	  font-size: 20px;
 }
 
 h4 {
@@ -69,11 +96,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $red;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $red;
   }
 }
 
@@ -232,7 +259,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $red;
     }
   }
 }
