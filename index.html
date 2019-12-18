@@ -11,7 +11,11 @@ layout: default
 		<p class="title"><a href="/{{ project.slug }}">{{ project.title }}</a></p>
 			      <div class="wrapper2">
 					<div class="progress-bar2">
-				<span class="progress-bar-fill" style="width: {{ project.level }};"></span>
+					<span class="progress-bar-fill" style="width: {{ project.level }};"></span>
+					</div>
+				      	<div class="progress-bar2">
+					Length: {{ project.length }} <br>
+					Type: {{ project.type }}
 					</div>
 				</div>
         </dt><!--
