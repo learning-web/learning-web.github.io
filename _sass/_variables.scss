@@ -3,8 +3,11 @@
 // VARIABLES
 //
 
+$spacer: 20px;
+
 // Colors
-$blue: #4183C4;
+$blue: #105e62;
+$red: #b5525c;
 
 // Grays
 $black: #000;
@@ -15,7 +18,10 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700|Playfair+Display:400,700,900);
+
+
+$helvetica: "Lora", Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
 
