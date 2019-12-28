@@ -16,11 +16,11 @@ layout: default
 				      	
 					{{ project.length }} <br>
 					{{ project.type }}
-					<a href="/{{ project.slug }}">learn more » </a>
 				</div>
         </dt><!--
         --><dd>
             <p>{{ project.description }}</p>
+		<a href="/{{ project.slug }}">learn more » </a>
         </dd>
     {% endfor %}
 </dl>
