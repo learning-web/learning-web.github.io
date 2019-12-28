@@ -14,4 +14,9 @@ Stochastic mechanics is based on the idea that many (if not all) of the seemingl
 - Understand the derivation of fundamental aspects of quantum mechanics in the context of stochastic mechanics.
 - Write a student-friendly introduction to stochastic mechanics.
 
+## Participants
 
+- Marcel Köpke
+- Jakob Schwichtenberg
+- Max Stadelmaier
+- Paul Tremper
