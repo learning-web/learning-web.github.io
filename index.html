@@ -24,3 +24,25 @@ layout: default
         </dd>
     {% endfor %}
 </dl>
+
+
+<h3 class="section-title">Active Project</h3>
+<dl class="education">
+    {% for project in site.data.activeprojects %}
+        <dt>
+		<p class="title"><a href="/{{ project.slug }}">{{ project.title }}</a></p>
+			      <div class="wrapper2">
+					<div class="progress-bar2">
+					<span class="progress-bar-fill" style="width: {{ project.progress }};"></span>
+					</div>
+				      	
+					{{ project.length }} <br>
+					{{ project.type }}
+				</div>
+        </dt><!--
+        --><dd>
+            <p>{{ project.description }}</p>
+		<a href="/{{ project.slug }}">learn more » </a>
+        </dd>
+    {% endfor %}
+</dl>
