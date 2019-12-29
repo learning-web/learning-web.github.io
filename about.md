@@ -44,7 +44,7 @@ graph TB
    Sarah;
     Mike;
     end
-{% endraw %}
+</div>{% endraw %}
 
 ### Types of Projects
 
