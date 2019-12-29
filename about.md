@@ -7,12 +7,22 @@ permalink: /about/
 {% raw %}<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.4/mermaid.min.js"></script>{% endraw %}
 
 {% raw %}<div class="mermaid">
-graph TD;
-    id1(This is the text in the box);
-    id2(This is the text in the boxss);
-    id3(This is the text in the boxssz);
-    id1-->|text|id2;
-    id2-->id3;
+graph TB;
+    id1(project proposal);
+    id2(project starts);
+    id31(discussions);
+    id32(note sharing);
+    id33(live meetings);
+    id4(deliverable);
+    id1-->|once there is sufficient interest|id2;
+    id2-->id31;
+    id2-->id32;
+    id2-->id33;
+    id31---id32;
+    id32---id33;
+    id31-->id4;
+    id32-->id4;
+    id33-->id4;
 </div>{% endraw %}
 
 {% raw %}<div class="mermaid">
