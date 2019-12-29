@@ -10,7 +10,7 @@ permalink: /about/
 
 Open Tribes is a platform that allows anyone no matter who and where they are to participate in interesting, meaningful projects.  
 
-![tribes](https://github.com/open-tribes/open-tribes.github.io/blob/master/tribes.png)
+![tribes](https://raw.githubusercontent.com/open-tribes/open-tribes.github.io/master/tribes.png)
 
 
 ## How?
@@ -96,7 +96,7 @@ Another root cause for the [diminishing returns in science](https://www.theatlan
 
 Motivated by these observations, we want to provide an alternative framework that allows anyone to participate, to learn, and to discover [previously-unknown truths](https://meaningness.com/metablog/upgrade-your-cargo-cult). 
 
-![tribes](https://github.com/open-tribes/open-tribes.github.io/blob/master/academic.png)
+![tribes](https://raw.githubusercontent.com/open-tribes/open-tribes.github.io/master/academic.png)
 
 
 ### Contact
