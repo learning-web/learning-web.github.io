@@ -1,6 +1,7 @@
 -   title: Noether's Theorem
     slug: noethers_theorem
     type: distillation
+    typeslug: distillation
     length: 8 weeks
     progress: 0%
     description: Noether's theorem is one of the deepest insights in all of physics. However, there are still issues regarding its interpretation and implications that need to be better addressed. 
@@ -8,6 +9,7 @@
 -   title: Open Tribes Beta
     slug: open_tribes_beta
     type: meta
+    typeslug: meta
     length: 8 weeks
     progress: 0%
     description: OpenTribes.org is still in its infancy and lots of ideas plus work is necessary.
@@ -16,6 +18,7 @@
 -   title: Pointless Physics
     slug: pointless_physics
     type: distillation
+    typeslug: distillation
     length: 8 weeks
     progress: 0%
     description: There are several hints that spacetime is not a fundamental feature of nature and instead, is only a convenient tool in our description.
