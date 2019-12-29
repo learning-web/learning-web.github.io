@@ -8,10 +8,20 @@ permalink: /about/
 
 ## What?
 
-![tribes](https://raw.githubusercontent.com/open-tribes/open-tribes.github.io/master/tribes.png)
+<div class="container" >
+  <div class="row">
+    <div class="col-6">
+    Open Tribes is a platform that allows anyone no matter who and where they are to participate in interesting, meaningful projects.  
+    </div>
+    <div class="col-6" style="maring: 0 auto;">
+      <img src="https://raw.githubusercontent.com/open-tribes/open-tribes.github.io/master/tribes.png" alt="Tribes">
+    </div>
+  </div>
+</div>
 
 
-Open Tribes is a platform that allows anyone no matter who and where they are to participate in interesting, meaningful projects.  
+
+
 
 
 
