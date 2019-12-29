@@ -11,7 +11,7 @@ permalink: /about/
 
 {% raw %}<div class="mermaid">
 stateDiagram
-    project proposal --> Still
+    [project proposal] --> Still
     Still --> deliverable
 
     Still --> Moving
