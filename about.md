@@ -111,11 +111,11 @@ graph LR
 
 ## Why?
 
-In the current academic system an incredibly large talent pool is locked out from participating.  
+In the current academic system an incredibly large talent pool is locked out from participating.<br><br>
 
-Most interesting projects never get picked up because they are not the kind of thing you can get funding for. The current funding structures favor monocultures since in order to [rake up citations](https://arxiv.org/abs/1603.01204) you must publish papers on topics that attract many papers by other researchers. Important contributes like the reduction of [research debt](https://distill.pub/2017/research-debt/) are not valued at all and even considered a waste of time. In addition, there is no funding for [risky research](https://physicstoday.scitation.org/doi/10.1063/1.1996476) and thus most researchers only carry out incremental, planable research. 
+Most interesting projects never get picked up because they are not the kind of thing you can get funding for. The current funding structures favor monocultures since in order to [rake up citations](https://arxiv.org/abs/1603.01204) you must publish papers on topics that attract many papers by other researchers. Important contributes like the reduction of [research debt](https://distill.pub/2017/research-debt/) are not valued at all and even considered a waste of time. In addition, there is no funding for [risky research](https://physicstoday.scitation.org/doi/10.1063/1.1996476) and thus most researchers only carry out incremental, planable research. <br><br>
 
-Another root cause for the [diminishing returns in science](https://www.theatlantic.com/science/archive/2018/11/diminishing-returns-science/575665/) is that "[traditionally taught science and mathematics teach little except obedience](https://arxiv.org/abs/physics/0512202)". Since no one is trying to reduce research debt and the teaching methods are so antiquated, most disciplines have failed to "[build a portal for most people to even understand what the issues are, what are the objects, what is the game?](http://podcasts.joerogan.net/podcasts/eric-weinstein-2)"
+Another root cause for the [diminishing returns in science](https://www.theatlantic.com/science/archive/2018/11/diminishing-returns-science/575665/) is that "[traditionally taught science and mathematics teach little except obedience](https://arxiv.org/abs/physics/0512202)". Since no one is trying to reduce research debt and the teaching methods are so antiquated, most disciplines have failed to "[build a portal for most people to even understand what the issues are, what are the objects, what is the game?](http://podcasts.joerogan.net/podcasts/eric-weinstein-2)" <br><br>
 
 Motivated by these observations, we want to provide an alternative framework that allows anyone to participate, to learn, and to discover [previously-unknown truths](https://meaningness.com/metablog/upgrade-your-cargo-cult). 
 
