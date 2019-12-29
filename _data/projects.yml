@@ -1,21 +1,28 @@
 -   title: Noether's Theorem
     slug: noethers_theorem
-    type: Distillation
+    type: distillation
     length: 8 weeks
     progress: 0%
     description: Noether's theorem is one of the deepest insights in all of physics. However, there are still issues regarding its interpretation and implications that need to be better addressed. 
 
+-   title: Open Tribes
+    slug: open_tribes
+    type: meta
+    length: 8 weeks
+    progress: 0%
+    description: OpenTribes.org is still in its infancy and lots of ideas plus work is necessary.
+
 
 -   title: Pointless Physics
     slug: pointless_physics
-    type: Distillation
+    type: distillation
     length: 8 weeks
     progress: 0%
     description: There are several hints that spacetime is not a fundamental feature of nature and instead, is only a convenient tool in our description.
 
 -   title: Classical Mechanics <br> the No-Nonsense Way
     slug: no-nonsense_classical_mechanics
-    type: Reading Group
+    type: reading Group
     length: 6 weeks
     progress: 0%
     description: Classical mechanics doesn't have to be boring. The plan is to discuss the book "No-Nonsense Classical Mechanics" with fellow readers chapter by chapter.
