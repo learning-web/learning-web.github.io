@@ -27,6 +27,12 @@ graph TB;
 
 {% raw %}<div class="mermaid">
 graph LR
+    proposalA(Noether's theorem);
+    proposalB(stochastic quantization);
+    projectA(Noether's theorem);
+    projectB(stochastic quantization);
+    deliverableA(arXiv paper);
+    deliverableB(Wiki entry);
     John-->|participates|projectA
     John-->|publishes|proposalA
     proposalA-->projectA
@@ -35,11 +41,11 @@ graph LR
     Sarah-->|publishes|proposalB
     Sarah-->projectA
     Mike-->|participates|projectB
-    projectA-->paper
-    projectB-->website
+    projectA-->deliverableA
+    projectB-->deliverableB
     subgraph deliverables
-    paper 
-    website
+    deliverableA 
+    deliverableB
     end
     subgraph proposals
     proposalA
