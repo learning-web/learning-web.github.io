@@ -5,8 +5,8 @@
     progress: 0%
     description: Noether's theorem is one of the deepest insights in all of physics. However, there are still issues regarding its interpretation and implications that need to be better addressed. 
 
--   title: Open Tribes
-    slug: open_tribes
+-   title: Open Tribes Beta
+    slug: open_tribes_beta
     type: meta
     length: 8 weeks
     progress: 0%
