@@ -84,4 +84,4 @@ graph LR
 
 ### Contact
 
-[email@domain.com](mailto:email@domain.com)
+[jakobschwich@gmail.com](mailto:jakobschwich@gmail.com)
