@@ -43,9 +43,6 @@ graph TB;
 
 
 
-</div>
-
-
 
 {% raw %}<div class="mermaid">
 graph LR
