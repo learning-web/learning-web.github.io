@@ -6,6 +6,13 @@ permalink: /about/
 
 {% raw %}<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.4/mermaid.min.js"></script>{% endraw %}
 
+
+<div class="container" id="aboutpop">
+  <div class="row">
+    <div class="col-6">
+    It all starts with a project proposal.
+    </div>
+    <div class="col-6" style="maring: 0 auto;">
 {% raw %}<div class="mermaid">
 graph TB;
     id1(project proposal);
@@ -24,6 +31,12 @@ graph TB;
     id32-->id4;
     id33-->id4;
 </div>{% endraw %}
+    </div>
+  </div>
+</div>
+
+
+
 
 {% raw %}<div class="mermaid">
 graph LR
