@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
+{% raw %}<script src="mermaid.full.min.js"></script>{% endraw %}
 
 
 {% raw %}<div class="mermaid">
