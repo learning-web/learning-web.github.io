@@ -105,12 +105,12 @@ graph LR
     <div class="col-6" style="maring: 0 auto;">
       <img src="https://raw.githubusercontent.com/open-tribes/open-tribes.github.io/master/academic.png" alt="Academic System">
     </div>
+    <div class="col-6" style="maring: 0 auto;">
+In the current academic system an incredibly large talent pool is locked out from participating.
+    </div>
   </div>
 </div>
 
-
-
-In the current academic system an incredibly large talent pool is locked out from participating.<br><br>
 
 Most interesting projects never get picked up because they are not the kind of thing you can get funding for. The current funding structures favor monocultures since in order to [rake up citations](https://arxiv.org/abs/1603.01204) you must publish papers on topics that attract many papers by other researchers. Important contributes like the reduction of [research debt](https://distill.pub/2017/research-debt/) are not valued at all and even considered a waste of time. In addition, there is no funding for [risky research](https://physicstoday.scitation.org/doi/10.1063/1.1996476) and thus most researchers only carry out incremental, planable research. <br><br>
 
