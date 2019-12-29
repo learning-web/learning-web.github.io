@@ -38,6 +38,35 @@ graph TB;
 
 
 
+
+
+### Types of Projects
+
+
+<div class="container" >
+  <div class="row">
+    <div class="col-4">
+      **Types of Projects**
+      - Reading Groups.
+      - Distillation.
+      - Research.
+    </div>
+    <div class="col-4">
+      **Types of Deliverables**
+      - Paper.
+      - Wikipedia entry.
+      - Summary.
+    </div>
+    <div class="col-4">
+    </div>
+  </div>
+</div>
+
+
+
+
+### Overview
+
 {% raw %}<div class="mermaid">
 graph LR
     proposalA(Noether's theorem);
@@ -74,12 +103,6 @@ graph LR
     Mike;
     end
 </div>{% endraw %}
-
-### Types of Projects
-
-- Reading Groups.
-- Distillation.
-- Research.
 
 
 ### Contact
