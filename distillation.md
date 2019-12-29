@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Distillation
+title: Distillation Projects
 permalink: /distillation/
 ---
 
