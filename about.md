@@ -7,7 +7,7 @@ permalink: /about/
 {% raw %}<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.4/mermaid.min.js"></script>{% endraw %}
 
 
-<div class="container" id="aboutpop">
+<div class="container" >
   <div class="row">
     <div class="col-6">
     It all starts with a project proposal.
