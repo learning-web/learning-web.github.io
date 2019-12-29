@@ -9,7 +9,7 @@ permalink: /open_tribes_beta
 
 ## Description
 
-In the first phase of OpenTribes.org the primary goal is to develop some experience with the general idea of carrying out various kinds of projects in small remote teams. An important part of this process is testing different tools and creating case studies to help others understand what OpenTribes.org is all about. In addition, we should create a MVP to get some feeling for whether or not there is sufficient interest. We should also plan our next steps and how we want to acquire the first users.
+In the first phase of OpenTribes.org the primary goal is to develop some experience with the general idea of carrying out various kinds of projects in small remote teams. An important part of this process is testing different tools and creating case studies to help others understand what OpenTribes.org is all about. In addition, we should create a minimal version of the platform to get some feeling for whether or not there is sufficient interest. We should also plan our next steps and how we want to acquire the first users.
 
 
 ## Goals
