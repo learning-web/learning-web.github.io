@@ -11,12 +11,40 @@ graph TD;
     id1(This is the text in the box);
     id2(This is the text in the boxss);
     id3(This is the text in the boxssz);
-    id1-->id2;
+    id1-->|text|id2;
     id2-->id3;
 </div>{% endraw %}
 
-
-
+{% raw %}<div class="mermaid">
+graph TB
+    John-->projectA
+    John-->proposalA
+    proposalA-->projectA
+    proposalB-->projectB
+    Sarah-->projectB
+    Sarah-->proposalB
+    Sarah-->projectA
+    Mike-->projectB
+    projectA-->paper
+    projectB-->website
+    subgraph deliverables
+    paper 
+    website
+    end
+    subgraph proposals
+    proposalA
+    proposalB
+    end
+    subgraph projects
+    projectA
+    projectB
+    end
+    subgraph users
+   John;
+   Sarah;
+    Mike;
+    end
+{% endraw %}
 
 ### Types of Projects
 
