@@ -8,22 +8,15 @@ permalink: /about/
 
 {% raw %}<div class="mermaid">
 graph TD;
-    project proposal-->project starts (if sufficient interest);
-    project starts (if sufficient interest)-->asynchron discussions, note sharing, live meetings in small cohorts;
-    asynchron discussions, note sharing, live meetings in small cohorts-->deliverable
+    id1(This is the text in the box);
+    id2(This is the text in the boxss);
+    id3(This is the text in the boxssz);
+    id1-->id2;
+    id2-->id3;
 </div>{% endraw %}
 
 
-{% raw %}<div class="mermaid">
-stateDiagram
-    [project proposal] --> Still
-    Still --> deliverable
 
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-</div>{% endraw %}
 
 ### Types of Projects
 
