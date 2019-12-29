@@ -68,9 +68,6 @@ graph TB;
 
 
 
-
-### Overview
-
 {% raw %}<div class="mermaid">
 graph LR
     proposalA(Noether's theorem);
