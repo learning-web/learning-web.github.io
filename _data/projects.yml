@@ -22,7 +22,8 @@
 
 -   title: Classical Mechanics <br> the No-Nonsense Way
     slug: no-nonsense_classical_mechanics
-    type: reading Group
+    type: reading group
+    typeslug: reading_group
     length: 6 weeks
     progress: 0%
     description: Classical mechanics doesn't have to be boring. The plan is to discuss the book "No-Nonsense Classical Mechanics" with fellow readers chapter by chapter.
