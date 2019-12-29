@@ -59,9 +59,9 @@ graph TB;
     <div class="col-4">
      Types of Deliverables
       <ul>
-        <li>Paper</li>
+        <li>paper</li>
         <li>Wikipedia entry</li>
-        <li>Summary</li>
+        <li>book notes</li>
       </ul>
     </div>
     <div class="col-4">
