@@ -6,13 +6,13 @@ permalink: /about/
 
 {% raw %}<script src="mermaid.full.min.js"></script>{% endraw %}
 
-<div class="mermaid">
+{% raw %}<div class="mermaid">
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-</div>
+</div>{% endraw %}
 
 
 ### Types of Projects
