@@ -8,6 +8,8 @@ permalink: /about/
 
 ## What?
 
+Open Tribes is a platform that allows anyone no matter who and where they are to participate in interesting, meaningful projects.  
+
 ## How?
 
 <div class="container" >
