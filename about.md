@@ -16,7 +16,7 @@ graph TD;
 </div>{% endraw %}
 
 {% raw %}<div class="mermaid">
-graph TB
+graph LR
     John-->|participates|projectA
     John-->|publishes|proposalA
     proposalA-->projectA
