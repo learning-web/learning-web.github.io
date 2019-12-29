@@ -16,6 +16,7 @@ In the first phase of OpenTribes.org the primary goal is to develop some experie
 
 - [ ] Create a website with all basic functionally working. 
 - [ ] Organize and work through the first three projects.
+- [ ] Summarize learnings from first projects as case studies.
 - [ ] Go trough resources like [this](http://www.communitybuildingguide.com/) and [this](https://medium.com/@yegg/the-bullseye-framework-for-getting-traction-ef49d05bfd7e) and develop some plan on how to acquire the first 100 users.  
 
 ## Participate
