@@ -47,15 +47,19 @@ graph TB;
   <div class="row">
     <div class="col-4">
       Types of Projects
-      - Reading Groups.
-      - Distillation.
-      - Research.
+      <ul>
+        <li>Reading Groups</li>
+        <li>Distillation</li>
+        <li>Research</li>
+      </ul>
     </div>
     <div class="col-4">
-      Types of Deliverables
-      - Paper.
-      - Wikipedia entry.
-      - Summary.
+     Types of Deliverables
+      <ul>
+        <li>Paper</li>
+        <li>Wikipedia entry</li>
+        <li>Summary</li>
+      </ul>
     </div>
     <div class="col-4">
     </div>
