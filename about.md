@@ -52,7 +52,7 @@ graph LR
     proposalB-->projectB
     Sarah-->|participates|projectB
     Sarah-->|publishes|proposalB
-    Sarah-->projectA
+    Sarah-->|participates|projectA
     Mike-->|participates|projectB
     projectA-->deliverableA
     projectB-->deliverableB
