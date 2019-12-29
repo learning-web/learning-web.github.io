@@ -51,9 +51,10 @@ graph TB;
     <div class="col-4">
       Types of Projects
       <ul>
-        <li>Reading Groups</li>
-        <li>Distillation</li>
-        <li>Research</li>
+        <li>reading groups</li>
+        <li>distillation</li>
+        <li>research</li>
+        <li>meta</li>
       </ul>
     </div>
     <div class="col-4">
