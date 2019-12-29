@@ -10,6 +10,9 @@ permalink: /about/
 
 Open Tribes is a platform that allows anyone no matter who and where they are to participate in interesting, meaningful projects.  
 
+![tribes](https://github.com/open-tribes/open-tribes.github.io/blob/master/tribes.png)
+
+
 ## How?
 
 <div class="container" >
@@ -92,6 +95,8 @@ Most interesting projects never get picked up because they are not the kind of t
 Another root cause for the [diminishing returns in science](https://www.theatlantic.com/science/archive/2018/11/diminishing-returns-science/575665/) is that "[traditionally taught science and mathematics teach little except obedience](https://arxiv.org/abs/physics/0512202)". Since no one is trying to reduce research debt and the teaching methods are so antiquated, most disciplines have failed to "[build a portal for most people to even understand what the issues are, what are the objects, what is the game?](http://podcasts.joerogan.net/podcasts/eric-weinstein-2)" <br><br>
 
 Motivated by these observations, we want to provide an alternative framework that allows anyone to participate, to learn, and to discover [previously-unknown truths](https://meaningness.com/metablog/upgrade-your-cargo-cult). 
+
+![tribes](https://github.com/open-tribes/open-tribes.github.io/blob/master/academic.png)
 
 
 ### Contact
