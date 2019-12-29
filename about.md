@@ -40,7 +40,7 @@ graph TB;
 
 
 
-### Types of Projects
+### At One Glance
 
 
 <div class="container" >
