@@ -9,12 +9,22 @@ permalink: /about/
 
 {% raw %}<div class="mermaid">
 graph TD;
-    A-->B;
+    project proposal-->project starts if sufficient interest;
     A-->C;
     B-->D;
     C-->D;
 </div>{% endraw %}
 
+{% raw %}<div class="mermaid">
+stateDiagram
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+</div>{% endraw %}
 
 ### Types of Projects
 
