@@ -25,6 +25,25 @@ stateDiagram
     Crash --> [*]
 </div>{% endraw %}
 
+{% raw %}<div class="mermaid">
+gitGraph:
+options
+{
+    "nodeSpacing": 150,
+    "nodeRadius": 10
+}
+end
+commit
+branch newbranch
+checkout newbranch
+commit
+commit
+checkout master
+commit
+commit
+merge newbranch
+</div>{% endraw %}
+
 ### Types of Projects
 
 - Reading Groups.
