@@ -17,14 +17,14 @@ graph TD;
 
 {% raw %}<div class="mermaid">
 graph TB
-    John-->projectA
-    John-->proposalA
+    John-->|participates|projectA
+    John-->|publishes|proposalA
     proposalA-->projectA
     proposalB-->projectB
-    Sarah-->projectB
-    Sarah-->proposalB
+    Sarah-->|participates|projectB
+    Sarah-->|publishes|proposalB
     Sarah-->projectA
-    Mike-->projectB
+    Mike-->|participates|projectB
     projectA-->paper
     projectB-->website
     subgraph deliverables
