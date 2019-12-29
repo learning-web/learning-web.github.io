@@ -4,14 +4,24 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+{% raw %}<script src="mermaid.full.min.js"></script>{% endraw %}
 
-TEST
+<div class="mermaid">
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+</div>
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+### Types of Projects
 
-### Contact me
+- Reading Groups.
+- Distillation.
+- Research.
+
+
+### Contact
 
 [email@domain.com](mailto:email@domain.com)
