@@ -43,31 +43,6 @@ graph TB;
 
 
 
-### At One Glance
-
-
-<div class="container" >
-  <div class="row">
-    <div class="col-4">
-      Types of Projects
-      <ul>
-        <li>reading groups</li>
-        <li>distillation</li>
-        <li>research</li>
-        <li>meta</li>
-      </ul>
-    </div>
-    <div class="col-4">
-     Types of Deliverables
-      <ul>
-        <li>paper</li>
-        <li>Wikipedia entry</li>
-        <li>book notes</li>
-      </ul>
-    </div>
-    <div class="col-4">
-    </div>
-  </div>
 </div>
 
 
