@@ -100,7 +100,14 @@ graph LR
 
 ## Why?
 
-![tribes](https://raw.githubusercontent.com/open-tribes/open-tribes.github.io/master/academic.png)
+<div class="container" >
+  <div class="row">
+    <div class="col-6" style="maring: 0 auto;">
+      <img src="https://raw.githubusercontent.com/open-tribes/open-tribes.github.io/master/academic.png" alt="Academic System">
+    </div>
+  </div>
+</div>
+
 
 
 In the current academic system an incredibly large talent pool is locked out from participating.<br><br>
