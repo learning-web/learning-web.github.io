@@ -102,11 +102,11 @@ graph LR
 
 <div class="container" >
   <div class="row">
-    <div class="col-6" style="maring: 0 auto;">
-      <img src="https://raw.githubusercontent.com/open-tribes/open-tribes.github.io/master/academic.png" alt="Academic System">
+        <div class="col-6">
+In the current academic system an incredibly large talent pool is locked out from participating.
     </div>
     <div class="col-6" style="maring: 0 auto;">
-In the current academic system an incredibly large talent pool is locked out from participating.
+      <img src="https://raw.githubusercontent.com/open-tribes/open-tribes.github.io/master/academic.png" alt="Academic System">
     </div>
   </div>
 </div>
