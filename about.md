@@ -46,13 +46,13 @@ graph TB;
 <div class="container" >
   <div class="row">
     <div class="col-4">
-      **Types of Projects**
+      Types of Projects
       - Reading Groups.
       - Distillation.
       - Research.
     </div>
     <div class="col-4">
-      **Types of Deliverables**
+      Types of Deliverables
       - Paper.
       - Wikipedia entry.
       - Summary.
