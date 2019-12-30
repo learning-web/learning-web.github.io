@@ -4,6 +4,7 @@ title: Types of Projects
 permalink: /types/
 ---
 
+{% raw %}<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.4/mermaid.min.js"></script>{% endraw %}
 
 
 <div class="container" >
