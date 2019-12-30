@@ -103,15 +103,15 @@ graph LR
 <div class="container" >
   <div class="row">
         <div class="col-6">
-In the current academic system an incredibly large talent pool is locked out from participating. <br><br>
-          
-Most interesting projects never get picked up because they are not the kind of thing you can get funding for. The current funding structures favor monocultures since in order to [rake up citations](https://arxiv.org/abs/1603.01204) you must publish papers on topics that attract many papers by other researchers. 
+In the current academic system an incredibly large talent pool is locked out from participating. The only way to learn intellectually challenging topics seems to be to enroll for years as a full time student at a university. The only way to contribute to the solutions of open questions seems to be to hold an academic position. But how many people have time and money for full time studies? How many academic positions are there? 
     </div>
     <div class="col-6" style="maring: 0 auto;">
       <img src="https://raw.githubusercontent.com/open-tribes/open-tribes.github.io/master/academic.png" alt="Academic System">
     </div>
   </div>
 </div>
+
+To make matters even worse, interesting projects never get picked up because they are not the kind of thing you can get funding for. The current funding structures favor monocultures since in order to [rake up citations](https://arxiv.org/abs/1603.01204) you must publish papers on topics that attract many papers by other researchers. 
 
 
 Important contributes like the reduction of [research debt](https://distill.pub/2017/research-debt/) are not valued at all and even considered a waste of time. In addition, there is no funding for [risky research](https://physicstoday.scitation.org/doi/10.1063/1.1996476) and thus most researchers only carry out incremental, planable research. <br><br>
