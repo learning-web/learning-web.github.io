@@ -15,8 +15,13 @@ layout: default
 </div>
 
 <div class="grid">
-  <div class="column">Col 1</div>
-  <div class="column">Col 2</div>
+  <div class="column">
+	  <h3 class="section-title">Planned Expeditions</h3>
+		<p class="title"><a href="/{{ project.slug }}">{{ project.title }}</a></p>
+	        <p>{{ project.description }}</p>
+		<a href="/{{ project.slug }}">learn more » </a>
+   </div>
+  <div class="column"><h3 class="section-title">Guides</h3></div>
 </div>         
 
 
