@@ -25,10 +25,10 @@ If you're interested in participating, send a short email to [jakobschwich@gmail
 
 
 
-
+<div style="border: 2px dotted #111;">
 <form action="https://formsubmit.co/jakobschwich@gmail.com" method="POST" />
   <label for="fname">Name:</label><br>
   <input type="text" id="name" name="name"><br>
   <input type="email" id="email" name="email">
 </form>
-
+</div>
