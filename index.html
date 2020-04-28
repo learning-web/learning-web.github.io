@@ -33,6 +33,7 @@ layout: default
 	  {% for guide in site.guides %}
 	  	<a href="/{{ guide.slug }}">
 	  	<div class="homecard">
+			<img src="{{ guide.image }}" style="float: right;" height="42" width="42">
 		<div class="guideimage" style="background-image: url({% if guide.image contains "://" %}{{ guide.image }}{% else %} {{site.baseurl}}/{{ guide.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
 		<p class="title">{{ guide.title }}</p>
 	        <p>{{ guide.description }}</p>
