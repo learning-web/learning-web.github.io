@@ -18,12 +18,14 @@ layout: default
 		<a href="/{{ project.slug }}">learn more » </a>
 	   {% endfor %}
    </div>
+  <div class="column">
 	  <h3 class="section-title">Guides</h3>
 	  {% for project in site.data.projects %}
 		<p class="title"><a href="/{{ project.slug }}">{{ project.title }}</a></p>
 	        <p>{{ project.description }}</p>
 		<a href="/{{ project.slug }}">learn more » </a>
 	   {% endfor %}
+   </div>
 </div>         
 
 
