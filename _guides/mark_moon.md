@@ -29,6 +29,4 @@ Most of my students are professionals looking to expand their knowledge in a set
 
 —Ronny Fernandez, PhD student in Philosophy at Rutgers 
 
-## Booking
 
-<iframe src="https://jakob-schwichtenberg.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframejakob-schwichtenberg" style="width:100%;height:1000px;border:0px;background-color:transparent;" frameborder="0" allowtransparency="true"></iframe><script>window.addEventListener && window.addEventListener("message", function(event){if (event.origin === "https://jakob-schwichtenberg.youcanbook.me"){document.getElementById("ycbmiframejakob-schwichtenberg").style.height = event.data + "px";}}, false);</script>
