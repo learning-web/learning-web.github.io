@@ -36,6 +36,15 @@ layout: default
 			<img src="{{ guide.image }}" style="float: right;margin-left:20px;" height="150">
 		<p class="title">{{ guide.title }}</p>
 	        <p>{{ guide.description }}</p>
+			<!-- Tags -->
+			<div>
+				<span class="taglist">
+				{% for tag in guide.tags %}
+				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
+				{% endfor %}
+				</span>
+			</div>
+			<!-- End Tags -->
 		</div>
 		</a>
 	   {% endfor %}
