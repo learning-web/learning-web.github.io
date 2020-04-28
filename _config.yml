@@ -78,7 +78,12 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
-
+# to add books post type
+collections:
+  guides:
+    output: true
+  expeditions:
+    output: true
 
 # Include these files to your production _site
 include: ['_pages']
