@@ -4,7 +4,7 @@ title: Clubhouse
 permalink: /clubhouse/
 ---
 <div style="float: right;margin-left:20px;max-width:350px;">
-<img src="/clubhouse_bw.png"  >
+<img src="/images/clubhouse_bw.png"  >
 </div>
 
 Everyone who participates in one of the expeditions also becomes a member of the virtual clubhouse.
