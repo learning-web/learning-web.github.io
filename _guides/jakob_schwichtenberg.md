@@ -24,4 +24,6 @@ The main idea behind my teaching style is perfectly summarized by the following 
 
 You can reach me via email at [jakobschwich@gmail.com](mailto:jakobschwich@gmail.com) or book directly a consultation call by choosing a date below.
 
+<br>
+
 <iframe src="https://jakob-schwichtenberg.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframejakob-schwichtenberg" style="width:100%;height:1000px;border:0px;background-color:transparent;" frameborder="0" allowtransparency="true"></iframe><script>window.addEventListener && window.addEventListener("message", function(event){if (event.origin === "https://jakob-schwichtenberg.youcanbook.me"){document.getElementById("ycbmiframejakob-schwichtenberg").style.height = event.data + "px";}}, false);</script>
