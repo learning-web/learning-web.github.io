@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQQF7HZ7avX5yPQsRaEt8XUM8_2HIVoMFrK3Lis6R0k9oCzyVtNTKZp8EagpyWinfacaa5DTp6EcKSF/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## What?
 
