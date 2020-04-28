@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Stochastic Mechanics"
 slug: stochastic_mechanics
 permalink: /stochastic_mechanics/
