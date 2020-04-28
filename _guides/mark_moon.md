@@ -12,7 +12,7 @@ I provide customized direct instruction and guide inquiry-based learning in a va
 
 Most of my students are professionals looking to expand their knowledge in a setting that is more flexible and personalized than a college course. I've taught people with Ivy League math degrees, and people with little to no previous math background. I've taught engineers at Google Brain, OpenAI, and Facebook. 
 
-Subjects: {% for tag in guide.tags %} {{ tag | downcase }}	{% endfor %}
+Subjects: {% for tag in page.tags %} {{ tag | downcase }}	{% endfor %}
 
 ## Testimonials
 
