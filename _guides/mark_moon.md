@@ -21,7 +21,7 @@ Most of my students are professionals looking to expand their knowledge in a set
 
 ## Booking and Contact
 
-You can reach me via email at [jakobschwich@gmail.com](mailto:jakobschwich@gmail.com) or book directly a consultation call by choosing a date below.
+
 
 ## Testimonials
 
