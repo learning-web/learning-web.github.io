@@ -27,6 +27,10 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
 
+### Flipped Classroom Concept
+
+Between meeting the participants work through the material selected by the guide. The meetings are primarily dedicated to discussing problems and working through exercises together.
+
 ## Why?
 
 <div style="float: right;margin-left:20px;max-width:350px;">
