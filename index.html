@@ -22,11 +22,11 @@ layout: default
 <div class="grid">
   <div class="column">
 	  <h3 class="section-title">Planned Expeditions</h3>
-	  {% for project in site.data.projects %}
-	  	<a href="/{{ project.slug }}">
+	  {% for expedition in site.expeditions %}
+	  	<a href="/{{ expedition.slug }}">
 	  	<div class="homecard">
-		<p class="title">{{ project.title }}</p>
-	        <p>{{ project.description }}</p>
+		<p class="title">{{ expedition.title }}</p>
+	        <p>{{ expedition.description }}</p>
 		</div>
 		</a>
 	   {% endfor %}
