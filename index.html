@@ -18,20 +18,24 @@ layout: default
 	
 <div class="grid">
   <div class="column">
+	  <div class="homecard">
 	  <h3 class="section-title">Planned Expeditions</h3>
 	  {% for project in site.data.projects %}
 		<p class="title"><a href="/{{ project.slug }}">{{ project.title }}</a></p>
 	        <p>{{ project.description }}</p>
 		<a href="/{{ project.slug }}">learn more » </a>
 	   {% endfor %}
+	   </div>
    </div>
   <div class="column">
+	  <div class="homecard">
 	  <h3 class="section-title">Guides</h3>
 	  {% for project in site.data.projects %}
 		<p class="title"><a href="/{{ project.slug }}">{{ project.title }}</a></p>
 	        <p>{{ project.description }}</p>
 		<a href="/{{ project.slug }}">learn more » </a>
 	   {% endfor %}
+	   </div>
    </div>
 </div>         
 
