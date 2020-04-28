@@ -12,7 +12,7 @@ I provide customized direct instruction and guide inquiry-based learning in a va
 
 Most of my students are professionals looking to expand their knowledge in a setting that is more flexible and personalized than a college course. I've taught people with Ivy League math degrees, and people with little to no previous math background. I've taught engineers at Google Brain, OpenAI, and Facebook. 
 
-Subjects: {% for tag in page.tags %} {{ tag | downcase }}	{% endfor %}
+**Subjects**: {% for tag in page.tags %} {{ tag | downcase }}	{% endfor %}
 
 ## Testimonials
 
@@ -24,3 +24,7 @@ Subjects: {% for tag in page.tags %} {{ tag | downcase }}	{% endfor %}
 "Just had Mark Moon teach me some basic category theory in preparation for learning Lawvere's theorem. It was absolutely awesome. Mark is a great teacher, and I have high standards. If you are interested in learning category theory or anything else Mark can teach, I strongly recommend booking him."
 
 —Ronny Fernandez, PhD student in Philosophy at Rutgers 
+
+## Booking
+
+<iframe src="https://jakob-schwichtenberg.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframejakob-schwichtenberg" style="width:100%;height:1000px;border:0px;background-color:transparent;" frameborder="0" allowtransparency="true"></iframe><script>window.addEventListener && window.addEventListener("message", function(event){if (event.origin === "https://jakob-schwichtenberg.youcanbook.me"){document.getElementById("ycbmiframejakob-schwichtenberg").style.height = event.data + "px";}}, false);</script>
