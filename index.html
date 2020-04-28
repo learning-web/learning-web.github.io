@@ -35,10 +35,8 @@ layout: default
 	  {% for guide in site.guides %}
 	  	<a href="/{{ guide.slug }}">
 	  	<div class="homecard">
-			<img src="{{ guide.image }}" style="float: right;margin-left:20px;" height="150">
-		<p class="title">{{ guide.title }}</p>
-	        <p>{{ guide.description }}</p>
-		<hr style="width:10%;border:1px #111 dotted;margin-left:0px;">
+			<div style="float: right;margin-left:20px;max-width:150px;">
+			<img src="{{ guide.image }}"  >
 			<!-- Tags -->
 			<div>
 				<span class="taglist" style="font-size:10px;margin-left:0;">
@@ -47,7 +45,10 @@ layout: default
 				{% endfor %}
 				</span>
 			</div>
-			<!-- End Tags -->
+			<!-- End Tags -->	
+			</div>
+		<p class="title">{{ guide.title }}</p>
+	        <p>{{ guide.description }}</p>
 		</div>
 		</a>
 	   {% endfor %}
