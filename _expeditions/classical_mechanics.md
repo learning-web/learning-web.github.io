@@ -10,6 +10,11 @@ organizator: "Jakob Schwichtenberg"
 
 ## Description
 
+<div style="float: right;margin-left:20px;max-width:400px;">
+<img src="/images/nononsenseclassicalmechanics.png"  >
+</div>
+
+
 **Starting Date:** {{ page.dat }}
 
 **Organized by:** {{ page.organizator }}
