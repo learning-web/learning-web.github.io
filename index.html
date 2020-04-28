@@ -30,11 +30,11 @@ layout: default
    </div>
   <div class="column">
 	  <h3 class="section-title">Guides</h3>
-	  {% for project in site.data.projects %}
-	  	<a href="/{{ project.slug }}">
+	  {% for guide in site.guides %}
+	  	<a href="/{{ guide.slug }}">
 	  	<div class="homecard">
-		<p class="title">{{ project.title }}</p>
-	        <p>{{ project.description }}</p>
+		<p class="title">{{ guide.title }}</p>
+	        <p>{{ guide.description }}</p>
 		</div>
 		</a>
 	   {% endfor %}
