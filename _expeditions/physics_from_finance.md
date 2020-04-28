@@ -22,5 +22,14 @@ The goal is to understand the key ideas behind gauge theories by using a toy ver
 
 No previous knowledge is required except for some basic high school math. The expedition will be a great preparation for more advanced expeditions that are dedicated solely to, for example, quantum field theory or general relativity.
 
-If you're interested in participating, send a short email to [jakobschwich@gmail.com](mailto:jakobschwich@gmail.com)
+If you're interested in participating, send a short email to [jakobschwich@gmail.com](mailto:jakobschwich@gmail.com) or fill out the form below.
 
+<div style="border: 2px dotted #111;max-width:300px;padding:20px;margin-top:20px;">
+<form action="https://formsubmit.co/jakobschwich@gmail.com" method="POST">
+  <label for="fname">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="fname">Email:</label><br>
+  <input type="email" id="email" name="email"> <br>
+  <button type="submit">Submit Form</button>
+</form>
+</div>
