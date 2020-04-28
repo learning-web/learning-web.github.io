@@ -11,7 +11,7 @@ organizator: "Jakob Schwichtenberg"
 ## Description
 
 <div style="float: right;margin-left:20px;max-width:300px;">
-<img src="/images/physicsfromfinance.png"  >
+<img src="/images/physicsfromfinance2.png"  >
 </div>
 
 **Starting Date:** {{ page.dat }}
