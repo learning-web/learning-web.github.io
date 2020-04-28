@@ -36,16 +36,16 @@ layout: default
 	  	<div class="homecard">
 			<div style="float: right;margin-left:20px;max-width:150px;">
 			<img src="{{ guide.image }}"  >
+			</div>
+		<p class="title">{{ guide.title }}</p>
+	        <p>{{ guide.description }}</p>
 			<!-- Tags -->
 				<p style="font-size:10px;margin-left:0;">
 				{% for tag in guide.tags %}
 				  {{ tag | downcase }}
 				{% endfor %}
 				</p>
-			<!-- End Tags -->	
-			</div>
-		<p class="title">{{ guide.title }}</p>
-	        <p>{{ guide.description }}</p>
+			<!-- End Tags -->		
 		</div>
 		</a>
 	   {% endfor %}
