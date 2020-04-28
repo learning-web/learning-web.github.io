@@ -10,7 +10,7 @@ organizator: "Jakob Schwichtenberg"
 
 ## Description
 
-<div style="float: right;margin-left:20px;max-width:400px;">
+<div style="float: right;margin-left:20px;max-width:300px;">
 <img src="/images/physicsfromfinance.png"  >
 </div>
 
