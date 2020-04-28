@@ -4,6 +4,7 @@ title: "Stochastic Mechanics"
 slug: stochastic_mechanics
 permalink: /stochastic_mechanics/
 description: "Stochastic mechanics is based on the idea that many (if not all) of the seemingly weird features of quantum mechanics can be derived by considering random walks."
+date: "28.04.2020"
 ---
 
 ## Description
