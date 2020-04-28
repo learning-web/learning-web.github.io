@@ -16,9 +16,16 @@ permalink: /about/
 
 ## How?
 
+<div style="float: right;margin-left:20px;max-width:250px;">
+<img src="/tribes.png"  >
+</div>
 
 
 ## Why?
+
+<div style="float: right;margin-left:20px;max-width:250px;">
+<img src="/academic.png"  >
+</div>
 
 
 In the current academic system an incredibly large talent pool is locked out from participating. The only way to learn intellectually challenging topics seems to be to enroll for years as a full time student at a university. The only way to contribute to the solutions of open questions seems to be to hold an academic position. But how many people have time and money for full time studies? How many academic positions are there and who has a realistic chance of getting one of them? 
