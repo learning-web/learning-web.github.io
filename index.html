@@ -40,7 +40,7 @@ layout: default
 			<div>
 				<span class="taglist">
 				{% for tag in guide.tags %}
-				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
+				  {{ tag | downcase }}, 
 				{% endfor %}
 				</span>
 			</div>
