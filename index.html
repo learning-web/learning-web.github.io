@@ -20,11 +20,12 @@ layout: default
   <div class="column">
 	  <h3 class="section-title">Planned Expeditions</h3>
 	  {% for project in site.data.projects %}
+	  	<a href="/{{ project.slug }}">
 	  	<div class="homecard">
-		<p class="title"><a href="/{{ project.slug }}">{{ project.title }}</a></p>
+		<p class="title">{{ project.title }}</p>
 	        <p>{{ project.description }}</p>
-		<a href="/{{ project.slug }}">learn more » </a>
 		</div>
+		</a>
 	   {% endfor %}
    </div>
   <div class="column">
