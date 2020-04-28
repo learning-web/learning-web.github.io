@@ -27,8 +27,7 @@ layout: default
 	  	<div class="homecard">
 		<p class="title">{{ expedition.title }}</p>
 	        <p>{{ expedition.description }}</p>
-		<p>Starting Date: {{ expedition.dat }}</p>
-		<p>Organized by {{ expedition.organizator }}</p>
+		<p style="font-size:12px;margin-left:12px;line-height: 1.0rem;">Starting Date: {{ expedition.dat }} <br> Organized by {{ expedition.organizator }}</p>
 		</div>
 		</a>
 	   {% endfor %}
@@ -44,7 +43,7 @@ layout: default
 		<p class="title">{{ guide.title }}</p>
 	        <p>{{ guide.description }}</p>
 			<!-- Tags -->
-				<p style="font-size:10px;margin-left:12px;line-height: 1.0rem;margin-top: 0.4rem;padding-right: 3rem;">
+				<p style="font-size:12px;margin-left:12px;line-height: 1.0rem;margin-top: 0.4rem;padding-right: 3rem;">
 				{% for tag in guide.tags %}
 				  {{ tag | downcase }}
 				{% endfor %}
