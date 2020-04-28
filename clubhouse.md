@@ -7,7 +7,7 @@ permalink: /clubhouse/
 <img src="/clubhouse_bw.png"  >
 </div>
 
-Everyone who participates in one of the expeditions also becomes a member of the clubhouse.
+Everyone who participates in one of the expeditions also becomes a member of the virtual clubhouse.
 
 The clubhouse is a place to:
 
