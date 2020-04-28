@@ -36,11 +36,12 @@ layout: default
 			<img src="{{ guide.image }}" style="float: right;margin-left:20px;" height="150">
 		<p class="title">{{ guide.title }}</p>
 	        <p>{{ guide.description }}</p>
+		<hr style="width:10%;color:black">
 			<!-- Tags -->
 			<div>
-				<span class="taglist" style="font-size:8px;color:#B8B8B8">
+				<span class="taglist" style="font-size:10px;color:#B8B8B8">
 				{% for tag in guide.tags %}
-				  {{ tag | downcase }}, 
+				  {{ tag | downcase }}
 				{% endfor %}
 				</span>
 			</div>
