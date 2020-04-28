@@ -25,9 +25,14 @@ layout: default
 	  {% for expedition in site.expeditions %}
 	  	<a href="/{{ expedition.slug }}">
 	  	<div class="homecard">
-		<p class="title">{{ expedition.title }}</p>
-	        <p>{{ expedition.description }}</p>
-		<p style="font-size:12px;margin-left:12px;line-height: 1.0rem;">Starting Date: {{ expedition.dat }} <br> Organized by {{ expedition.organizator }}</p>
+			<div class="grid">
+  			<div class="column">
+				<p class="title">{{ expedition.title }}</p>
+	       			<p>{{ expedition.description }}</p>
+			</div>
+			<div class="column">
+				<p style="font-size:12px;margin-left:12px;line-height: 1.0rem;">Starting Date: {{ expedition.dat }} <br> Organized by {{ expedition.organizator }}</p>
+			</div>
 		</div>
 		</a>
 	   {% endfor %}
