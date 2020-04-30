@@ -8,9 +8,16 @@ permalink: /about/
 ## What?
 
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+Think of knowledge as something like a continent. What’s the best way to become familiar with a region that sparked your interest?
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+- A video lecture course is like a travel documentary. Maybe entertaining but won’t provide you with any deep understanding. 
+- A traditional university course is like a bus tour. Everyone travels to the same famous landmarks and only hears the same explanations irrespective of their personal interests and background.
+- A completely independent “backpacking” tour through the continent of knowledge makes it easy to get stuck or lost.
+
+Isn’t there any other alternative? There is, and here at the Intellectual Explorers Club we call it expeditions.
+
+- The program of an expedition is as flexible as in an independent “backpacking” tour but you still have an experienced guide at your side that makes sure you won’t get stuck or lost.
+
 
 
 
@@ -23,13 +30,13 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 <img src="/tribes.png"  >
 </div>
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+There are no fixed rules but typically an expedition works as follows:
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+- During an initial virtual meeting, the guide and participant clarify the goals of the expedition and outline a program in broad strokes.
+- The guide then suggest learning material (book chapters, etc.) which the participant studies independently. 
+- Regularly (typically weekly), there is a virtual meeting in which the guide and participant discuss the progress, solve problems, and plan the next steps together.
+- In addition, between meetings the participant gets help from the guide asynchronously.
 
-### Flipped Classroom Concept
-
-Between meeting the participants work through the material selected by the guide. The meetings are primarily dedicated to discussing problems and working through exercises together.
 
 ## Why?
 
@@ -37,12 +44,13 @@ Between meeting the participants work through the material selected by the guide
 <img src="/academic.png"  >
 </div>
 
-Current methods of learning do not work well for most people.
+Currently existing modes of learning do not work well for most people and despite of all the opportunities created by the internet, there hasn't been a real revolution in education.
 
+- Traditional university courses ignore individual needs, often focus more on grades than understanding, and are not available to everyone. In the current academic system an incredibly large talent pool is locked out from participating. 
+- Existing online education frameworks are readily accessible but don’t provide everything that is necessary for a successful learning experience. Most of them focus solely on providing content but ignore that accountability, support, and guidance are equally if not more important.
 
-In the current academic system an incredibly large talent pool is locked out from participating. The only way to learn intellectually challenging topics seems to be to enroll for years as a full time student at a university. The only way to contribute to the solutions of open questions seems to be to hold an academic position. But how many people have time and money for full time studies? How many academic positions are there and who has a realistic chance of getting one of them? 
+In contrast, our expeditions focus on helping you understand, are open to everyone, and provide a framework that makes sure that all puzzle pieces that are necessary for successful learning experiences are in place.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
 
 
 
