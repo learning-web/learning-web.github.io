@@ -12,7 +12,7 @@ Fees are determined individually by each guide and are discussed in the initial 
 
 While in some cases this can be the case, typically participants have to buy the relevant textbooks themselves.
 
-**Are group expeditions possible?**
+**Are personalized group expeditions possible?**
 
-Sure. Simply reach out to the guide you want to hire and tell him or her about your idea.
+Of course, simply reach out to the guide you want to hire and tell him or her about your idea.
 
