@@ -12,11 +12,11 @@ Think of knowledge as something like a continent. What’s the best way to becom
 
 - A video lecture course is like a travel documentary. Maybe entertaining but won’t provide you with any deep understanding. 
 - A traditional university course is like a bus tour. Everyone travels to the same famous landmarks and only hears the same explanations irrespective of their personal interests and background.
-- A completely independent “backpacking” tour through the continent of knowledge makes it easy to get stuck or lost.
+- A completely independent "backpacking tour" through the continent of knowledge makes it easy to get stuck or lost.
 
 Isn’t there any other alternative? There is, and here at the Intellectual Explorers Club we call it expeditions.
 
-- The program of an expedition is as flexible as in an independent “backpacking” tour but you still have an experienced guide at your side that makes sure you won’t get stuck or lost.
+- The program of an expedition is as flexible as in an independent "backpacking tour" but you still have an experienced guide at your side that makes sure you won’t get stuck or lost.
 
 
 
