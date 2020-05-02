@@ -14,12 +14,10 @@ Think of knowledge as something like a continent. What’s the best way to becom
 - A traditional university course is like a bus tour. Everyone travels to the same famous landmarks and only hears the same explanations irrespective of their personal interests and background.
 - A completely independent "backpacking tour" through the continent of knowledge can be an intimidating endeavour and those who try it often get stuck or lost.
 
-Isn’t there any other alternative? There is, and here at the Intellectual Explorers Club we call it expeditions.
+Isn’t there any other alternative? Think of it as a guided expedition through the continent of knowledge.
 
 - The program of an expedition is as flexible as in an independent "backpacking tour" but you still have an experienced guide at your side that makes sure you won’t get stuck or lost.
-
-
-
+- You'll still have to wade through the mud yourself but the guide will support you and move major obstacles out of your way.
 
 
 ## How?
