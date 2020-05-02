@@ -10,7 +10,7 @@ permalink: /about/
 
 Think of knowledge as something like a continent. What’s the best way to become familiar with a region that sparked your interest?
 
-- A video lecture course is like a travel documentary. Maybe entertaining but won’t provide you with any deep understanding. 
+- A video lecture course is like a travel documentary. Maybe entertaining but probably won’t provide you with any deep understanding or long-lasting memories. 
 - A traditional university course is like a bus tour. Everyone travels to the same famous landmarks and only hears the same explanations irrespective of their personal interests and background.
 - A completely independent "backpacking tour" through the continent of knowledge can be an intimidating endeavour and those who try it often get stuck or lost.
 
