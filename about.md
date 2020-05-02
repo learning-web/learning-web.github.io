@@ -17,8 +17,7 @@ Think of knowledge as something like a continent. What’s the best way to becom
 Isn’t there any other alternative? There is. Think of it as guided expeditions through the continent of knowledge.
 
 - The program of an expedition is as flexible as in an independent "backpacking tour" but you still have an experienced guide at your side that makes sure you won’t get stuck or lost.
-- You'll still have to wade through the mud yourself but the guide will support you and move major obstacles out of your way. Everyone moves through the content at their own pace.
-
+-  Everyone moves through the content at their own pace. You'll still have to wade through the mud yourself but the guide will support you and move major obstacles out of your way.
 
 ## How?
 
