@@ -390,27 +390,6 @@ border-radius: 3px;
 		}
 	}
 	
-	&:hover &__horizontal {
-		transform: scaleX(0);
-	}
-	
-	&__vertical {
-		--horizontal-offset: calc(var(--offset) * -1);
-		border-left: var(--border-size) solid currentcolor;
-		border-right: var(--border-size) solid currentcolor;
-		
-		&::before {
-			top: calc(var(--horizontal-offset) * -1);
-			bottom: calc(var(--horizontal-offset) * -1);
-			left: calc(var(--horizontal-offset) - var(--border-size));
-			right: calc(var(--horizontal-offset) - var(--border-size));
-		}
-	}
-	
-	&:hover &__vertical {
-		transform: scaleY(0);
-	}
-	
 }
 
 .homecard {
