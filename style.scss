@@ -391,7 +391,7 @@ border-radius: 3px;
 	}
 	
 	&:hover &__horizontal {
-		transform: scaleX(0.9);
+		transform: scaleX(0.98);
 	}
 	
 	&__vertical {
@@ -408,7 +408,7 @@ border-radius: 3px;
 	}
 	
 	&:hover &__vertical {
-		transform: scaleY(0.9);
+		transform: scaleY(0.98);
 	}
 	
 }
