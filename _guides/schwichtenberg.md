@@ -29,4 +29,7 @@ You can reach me via email at [jakobschwich@gmail.com](mailto:jakobschwich@gmail
 
 <br>
 
-<iframe src="https://jakob-schwichtenberg.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframejakob-schwichtenberg" style="width:100%;height:1000px;border:0px;background-color:transparent;" frameborder="0" allowtransparency="true"></iframe><script>window.addEventListener && window.addEventListener("message", function(event){if (event.origin === "https://jakob-schwichtenberg.youcanbook.me"){document.getElementById("ycbmiframejakob-schwichtenberg").style.height = event.data + "px";}}, false);</script>
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/jakobschwichtenberg?background_color=fffff8&primary_color=4d5055" style="min-width:320px;height:630px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<!-- Calendly inline widget end -->
