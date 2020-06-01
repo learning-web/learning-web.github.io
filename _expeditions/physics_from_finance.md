@@ -4,7 +4,7 @@ title: "Physics from Finance"
 slug: physics_from_finance
 permalink: /physics_from_finance/
 description: "The goal is to understand the key ideas behind gauge theories by using a simple analogy."
-dat: "14.05.2020"
+dat: "14.07.2020"
 organizator: "Jakob Schwichtenberg"
 ---
 
