@@ -4,7 +4,7 @@ title: "No-Nonsense Classical Mechanics"
 slug: classical_mechanics
 permalink: /classical_mechanics/
 description: "Learning classical mechanics doesn’t have to be hard and boring."
-dat: "01.06.2020"
+dat: "01.07.2020"
 organizator: "Jakob Schwichtenberg"
 ---
 
