@@ -1,5 +1,6 @@
 ---
 layout: default
+datatable: true
 ---
 
 
@@ -60,7 +61,17 @@ layout: default
 	   {% endfor %}
    </div>
 	
-<iframe class="airtable-embed" src="https://airtable.com/embed/shr1RXCpStae89UKq?backgroundColor=gray&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>	
+<div class="datatable-begin"></div>
+
+Food    | Description                           | Category | Sample type
+------- | ------------------------------------- | -------- | -----------
+Apples  | A small, somewhat round ...           | Fruit    | Fuji
+Bananas | A long and curved, often-yellow ...   | Fruit    | Snow
+Kiwis   | A small, hairy-skinned sweet ...      | Fruit    | Golden
+Oranges | A spherical, orange-colored sweet ... | Fruit    | Navel
+
+<div class="datatable-end"></div>
+
 </div>         
 
 
