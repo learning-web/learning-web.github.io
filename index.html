@@ -3,70 +3,20 @@ layout: default
 datatable: true
 ---
 
-
-
-
-<a href="/about">
-<div class="box2">
-	<img src="/images/landscape8.png" style="float: right;margin-left:20px;" height="200">
-	 <p>A subject like quantum mechanics or Greek philosophy can be intimdating. But with an experienced guide or a group of highly motivated peers at your side, no subject is out of reach. </p>
-	    
-	<p>Here at the Intellectual Explorers Club you can expand your knowledge in a setting that is more flexible and personalized than traditional college courses.</p>
-	
-	<p><i>You can organize or join a peer expedition, hire one of the guides for a "solo expedition", and connect with other intellectually curious, serious learners.</i></p>    
-	
-	<div class="box2__horizontal"></div>
-	<div class="box2__vertical"></div>
+<div style="border: 2px dotted #111;padding:20px;margin-top:20px;" cf-context>
+<form action="https://formsubmit.co/jakobschwich@gmail.com" method="POST" cf-form-element>
+  <label for="fname">Name:</label><br>
+  <input type="text" id="name" name="name" cf-questions="What's your name?|Please tell me your name"><br>
+  <label for="fname">Email:</label><br>
+  <input type="email" id="email" name="email" cf-questions="What's your email address?|Next we need your email address"> <br>
+  <button type="submit">Submit Form</button>
+</form>
 </div>
-</a>
-	
-<div class="grid">
-  <div class="column">
-	  <h3 class="section-title">Group Expeditions</h3>
-	  {% for expedition in site.expeditions %}
-	  	<a href="/{{ expedition.slug }}">
-	  	<div class="homecard">
-			<div class="grid">
-  			<div class="column">
-				<p class="title">{{ expedition.title }}</p>
-			</div>
-			<div class="column">
-				<p style="font-size:12px;margin-left:12px;line-height: 1.0rem;">Starting Date: {{ expedition.dat }} <br> Organized by {{ expedition.organizator }}</p>
-			</div>
-			</div>
-		<p>{{ expedition.description }}</p>
-		</div>
-		</a>
-	   {% endfor %}
-   </div>
-  <div class="column">
-	  <h3 class="section-title">Guides</h3>
-	  {% for guide in site.guides %}
-	  	<a href="/{{ guide.slug }}">
-	  	<div class="homecard">
-			<div style="float: right;margin-left:20px;max-width:150px;">
-			<img src="{{ guide.image }}"  >
-			</div>
-		<p class="title">{{ guide.title }}</p>
-	        <p>{{ guide.description }}</p>
-			<!-- Tags -->
-				<p style="font-size:12px;margin-left:12px;line-height: 1.0rem;margin-top: 0.4rem;padding-right: 3rem;">
-				{% for tag in guide.tags %}
-				  {{ tag | downcase }}
-				{% endfor %}
-				</p>
-			<!-- End Tags -->		
-		</div>
-		</a>
-	   {% endfor %}
-   </div>
-</div>  
 
 
 
-<h3 class="section-title">Learners</h3>	 
+<h3 class="section-title">Open Peer-Matching Requests</h3>	 
 
-<iframe   width=800 height=400 src="https://docs.google.com/spreadsheets/d/1Z5RWC6iWEDOwH4hjeJilUgscE4ZANfkPa1H26EkaP74/edit?rm=minimal#gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 
 
