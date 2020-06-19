@@ -4,7 +4,7 @@ datatable: true
 ---
 
 <div style="border: 2px dotted #111;padding:20px;margin-top:20px;height:400px;" cf-context>
-<form action="https://formsubmit.co/jakobschwich@gmail.com" method="POST" cf-form-element>
+<form cf-form-element>
 <fieldset cf-questions=""Hi, are you're interested in finding a peer to discuss a book, article, or podcast episode?"">
 	<input type="radio" name="cfc-intro" id="intro-yes" value="yes">
 	<label for="intro-yes">Yes</label>
@@ -17,7 +17,7 @@ datatable: true
   <input type="email" id="email" name="email" cf-questions="Next, we need your email address" cf-conditional-cfc-intro="yes"> <br>
   <input type="text" id="name" name="name" cf-questions="And lastly, what's your name?" cf-conditional-cfc-intro="yes"><br>
   <cf-robot-message cf-questions="Understood. Feel free to look around and come back once you've changed your decision." cf-conditional-cfc-intro="no"></cf-robot-message>
-</form>
+<button type="submit"id="submit-form">Submit</button>																		     																	      </form>
 </div>
 
 
@@ -26,4 +26,18 @@ datatable: true
 
 
 
-
+<script>
+var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/AKfycbyX5cSA2B-hndRW7njxOv1j4Irs7QK0FsP325IUojpbuAGRKcs/exec'
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+  );
+})			 
+</script>
