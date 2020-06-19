@@ -33,3 +33,12 @@ If you're interested in participating, send a short email to [jakobschwich@gmail
   <button type="submit">Submit Form</button>
 </form>
 </div>
+
+<script>
+  import { ConversationalForm } from 'conversational-form';
+
+const cfInstance = new ConversationalForm({
+    formEl: formElement,
+    context: targetElement,
+});
+</script>
