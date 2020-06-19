@@ -49,6 +49,24 @@ datatable: true
 
 
 <script>
+	
+$.fn.serializeObject = function()
+{
+var o = {};
+var a = this.serializeArray();
+$.each(a, function() {
+if (o[this.name]) {
+if (!o[this.name].push) {
+o[this.name] = [o[this.name]];
+}
+o[this.name].push(this.value || ‘’);
+} else {
+o[this.name] = this.value || ‘’;
+}
+});
+return o;
+};	
+	
 var $form = $('form#test-form'),
     url = 'https://script.google.com/macros/s/AKfycbyX5cSA2B-hndRW7njxOv1j4Irs7QK0FsP325IUojpbuAGRKcs/exec'
 $('#submit-form').on('click', function(e) {
