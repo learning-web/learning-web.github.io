@@ -25,7 +25,7 @@ No previous knowledge is required except for some basic high school math. The ex
 If you're interested in participating, send a short email to [jakobschwich@gmail.com](mailto:jakobschwich@gmail.com) or fill out the form below.
 
 <div style="border: 2px dotted #111;max-width:300px;padding:20px;margin-top:20px;">
-<form action="https://formsubmit.co/jakobschwich@gmail.com" method="POST" cf-form>
+<form action="https://formsubmit.co/jakobschwich@gmail.com" method="POST" cf-form-element>
   <label for="fname">Name:</label><br>
   <input type="text" id="name" name="name"><br>
   <label for="fname">Email:</label><br>
@@ -34,11 +34,4 @@ If you're interested in participating, send a short email to [jakobschwich@gmail
 </form>
 </div>
 
-<script>
-  import { ConversationalForm } from 'conversational-form';
 
-const cfInstance = new ConversationalForm({
-    formEl: formElement,
-    context: targetElement,
-});
-</script>
