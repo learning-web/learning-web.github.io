@@ -5,12 +5,11 @@ datatable: true
 
 <div style="border: 2px dotted #111;padding:20px;margin-top:20px;height:400px;" cf-context>
 <form action="https://formsubmit.co/jakobschwich@gmail.com" method="POST" cf-form-element>
-    <cf-robot-message cf-questions="Hello my friend"></cf-robot-message>
-  <cf-robot-message cf-questions="Let's get started"></cf-robot-message>
-  <label for="fname">Name:</label><br>
-  <input type="text" id="name" name="name" cf-questions="Hi, what's your name?"><br>
-  <label for="fname">Email:</label><br>
-  <input type="email" id="email" name="email" cf-questions="What's your email address?|Next we need your email address"> <br>
+    <cf-robot-message cf-questions="Hi, if you're interested in finding a peer to discuss a book, article, or podcast episode, just answer the questions below."></cf-robot-message>
+  <cf-robot-message cf-questions="Below you can see a list of titles that currently haven't been matched."></cf-robot-message>
+  <input type="text" id="name" name="title" cf-questions="First of all, what's the title of the book, article or podcast episode that you would like to discuss?"><br>
+  <input type="email" id="email" name="email" cf-questions="Next, we need your email address"> <br>
+  <input type="text" id="name" name="name" cf-questions="And lastly, what's your name?"><br>
   <button type="submit">Submit Form</button>
 </form>
 </div>
