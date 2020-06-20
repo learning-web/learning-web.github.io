@@ -3,21 +3,7 @@ layout: default
 datatable: true
 ---
 
-<div style="border: 2px dotted #111;padding:20px;margin-top:20px;height:400px;" cf-context>
-<form cf-form-element>
-<fieldset cf-questions="Hi, are you're interested in finding a peer to discuss a book, article, or podcast episode?">
-	<input type="radio" name="cfc-intro" id="intro-yes" value="yes">
-	<label for="intro-yes">Yes</label>
-	<input type="radio" name="cfc-intro" id="intro-no" value="no">
-	<label for="intro-no">No thanks</label>
-</fieldset>
-        
-  <cf-robot-message cf-questions="Note that below you can see a list of currently open peer-matching requests." cf-conditional-cfc-intro="yes"></cf-robot-message>
-  <input type="text" id="name" name="title" cf-questions="Let's start with the title of the book, article or podcast episode that you would like to discuss?" cf-conditional-cfc-intro="yes"><br>
-  <input type="email" id="email" name="email" cf-questions="Next, we need your email address" cf-conditional-cfc-intro="yes"> <br>
-  <input type="text" id="name" name="name" cf-questions="And lastly, what's your name?" cf-conditional-cfc-intro="yes"><br>
-  <cf-robot-message cf-questions="Understood. Feel free to look around and come back once you've changed your decision." cf-conditional-cfc-intro="no"></cf-robot-message>
-</div>
+
 
 <div style="border: 2px dotted #111;max-width:300px;padding:20px;margin-top:20px;">
 <form id="test-form">
@@ -49,6 +35,36 @@ datatable: true
 
 
 <script>
+	
+	jQuery.fn.serializeObject = function() {
+  var arrayData, objectData;
+  arrayData = this.serializeArray();
+  objectData = {};
+
+  $.each(arrayData, function() {
+    var value;
+
+    if (this.value != null) {
+      value = this.value;
+    } else {
+      value = '';
+    }
+
+    if (objectData[this.name] != null) {
+      if (!objectData[this.name].push) {
+        objectData[this.name] = [objectData[this.name]];
+      }
+
+      objectData[this.name].push(value);
+    } else {
+      objectData[this.name] = value;
+    }
+  });
+
+  return objectData;
+};
+	
+	
 	
 var $form = $('form#test-form'),
     url = 'https://script.google.com/macros/s/AKfycbyX5cSA2B-hndRW7njxOv1j4Irs7QK0FsP325IUojpbuAGRKcs/exec'
