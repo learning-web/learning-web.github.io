@@ -105,7 +105,7 @@ $('#test-form').on('submit', function(e) {
         alert("Successfully processed " + data.length + " rows!")
 	alert(data)
 
-        document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].Name, data[1].Name, data[2].Name ].join(", ");
+        document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0], data[1] ].join(", ");
         console.log(data);
       }      
     </script>
