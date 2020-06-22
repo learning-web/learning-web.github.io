@@ -108,8 +108,8 @@ $('#test-form').on('submit', function(e) {
         
 	//alert(data[0].Timestamp)
 
-        document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].Timestamp, data[1].Title ].join(", ");
-        console.log(data);
+        //document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].Timestamp, data[1].Title ].join(", ");
+        // console.log(data);
 	      
 	      
 	var table = document.createElement("table");
@@ -120,7 +120,7 @@ $('#test-form').on('submit', function(e) {
   		var lastNameCell = row.insertCell(-1);
   		lastNameCell.appendChild(document.createTextNode(data[i].Title));
 		}
-	document.getElementById("requests").innerHTML =table;
+	document.getElementById("main").appendChild(table);
 	      
       }      
 	    
