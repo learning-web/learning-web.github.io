@@ -37,6 +37,28 @@ datatable: true
 
 <div id="requests"></div>
 
+<table id="requests2" class="display">
+<thead>
+  <tr>
+    <th>Timestamp</th>
+    <th>Title</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
 
 <script>
     grecaptcha.ready(function() {
@@ -112,22 +134,7 @@ $('#test-form').on('submit', function(e) {
 	      
 	var table = document.createElement("table");
 	table.setAttribute("class","display");	   
-    var header=  document.createElement('thead')
-    var headingRow = document.createElement('tr')
-
-    var headingCell1 = document.createElement('td')
-    var headingText1 = document.createTextNode('country')
-    headingCell1.appendChild(headingText1)
-    headingRow.appendChild(headingCell1)
-    
-    var headingCell2 = document.createElement('td')
-    var headingText2 = document.createTextNode('City')
-    headingCell2.appendChild(headingText2)
-    headingRow.appendChild(headingCell2)
-
-    header.appendChild(headingRow)
-    table.appendChild(header)
-	      
+ 
 	for (var i = 0; i < data.length; i++) {
   		var row = table.insertRow(-1);
   		var firstNameCell = row.insertCell(-1);
@@ -135,7 +142,21 @@ $('#test-form').on('submit', function(e) {
   		var lastNameCell = row.insertCell(-1);
   		lastNameCell.appendChild(document.createTextNode(data[i].Title));
 		}
+
 	document.getElementById("requests").appendChild(table);
+	      	var table = document.createElement("table");
+	table.setAttribute("class","display");	   
+ 
+	      
+	tbl=document.getElementById("requests2")      
+	for (var i = 0; i < data.length; i++) {
+  		var row = tbl.insertRow(-1);
+  		var firstNameCell = row.insertCell(-1);
+  		firstNameCell.appendChild(document.createTextNode(data[i].Timestamp));
+  		var lastNameCell = row.insertCell(-1);
+  		lastNameCell.appendChild(document.createTextNode(data[i].Title));
+		}
+	      
 	      
       }      
 	    
