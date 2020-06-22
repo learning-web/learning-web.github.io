@@ -44,8 +44,8 @@ datatable: true
 <table id="requests2" class="display">
 <thead>
   <tr>
-    <th>Timestamp</th>
     <th>Title</th>
+    <th>Date</th>
   </tr>
 </thead>
 <tbody>
@@ -150,9 +150,9 @@ $('#test-form').on('submit', function(e) {
 	for (var i = 0; i < data.length; i++) {
   		var row = tbl.insertRow(-1);
   		var firstNameCell = row.insertCell(-1);
-  		firstNameCell.appendChild(document.createTextNode(data[i].Timestamp));
+  		firstNameCell.appendChild(document.createTextNode(data[i].title));
   		var lastNameCell = row.insertCell(-1);
-  		lastNameCell.appendChild(document.createTextNode(data[i].Title));
+  		lastNameCell.appendChild(document.createTextNode(data[i].date));
 		}
 	      
 	      
