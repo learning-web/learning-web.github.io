@@ -3,6 +3,9 @@
 
 // Default spacing unit
 
+.grecaptcha-badge { 
+    visibility: hidden;
+}
 
 .container {
     max-width: 860px;
