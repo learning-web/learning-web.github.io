@@ -5,9 +5,15 @@ datatable: true
 
 
 
-<div id="formcontainer" style="border: 2px dotted #111;max-width: 300px;padding: 20px;margin-top: 20px;">
+<div id="formcontainer" style="border: 2px dotted #111;max-width: 600px;padding: 20px;margin-top: 20px;margin:0 auto; ">
 <form id="test-form">
   
+	
+   <div>
+    <label>Title of the book or article you want to discuss</label>
+    <input type="text" name="title" placeholder="title"/>
+  </div>
+	
   <div>
     <label>Name</label>
     <input type="text" name="name" placeholder="name" required />
@@ -18,10 +24,7 @@ datatable: true
     <input type="text" name="email" placeholder="email"/>
   </div>
   
-  <div>
-    <label>Title of the book or article you want to discuss</label>
-    <input type="text" name="title" placeholder="title"/>
-  </div>
+
 
 <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
 <input type="hidden" name="action" value="validate_captcha">
