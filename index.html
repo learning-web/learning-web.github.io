@@ -83,7 +83,7 @@ $('#submit-form').on('click', function(e) {
     dataType: "json",
     data: $form.serializeObject()
   }).done(function(e){console.log(e);}
-    // do something
+     document.getElementById("formcontainer").innerHTML = "Your message";
   );
 })
 </script>
