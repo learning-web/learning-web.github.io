@@ -450,26 +450,7 @@ background-color: transparent!important;
 	width:50%;
 }
 
-.btn-0 {
-  $btn-color: random-color($max:200);
-  $btn-color-dark: shade($btn-color, 40%);
-  color: tint($btn-color);
 
-  &:before {
-    content: '';
-    @include absolute(0,0,0,0);
-    background-color: $btn-color-dark;
-    transform: translateX(-100%);
-  }
-
-  &:hover {
-    color: tint($btn-color, 75%);
-
-    &:before {
-      transform: translateX(0);
-    }
-  }
-}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
