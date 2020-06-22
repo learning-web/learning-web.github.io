@@ -107,17 +107,21 @@ $('#test-form').on('submit', function(e) {
 
         document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].Timestamp, data[1].Title ].join(", ");
         console.log(data);
+	      
+	      
+	var table = document.createElement("table");
+	for (var i = 0; i < data.length; i++) {
+  		var row = table.insertRow(-1);
+  		var firstNameCell = row.insertCell(-1);
+  		firstNameCell.appendChild(document.createTextNode(data[i].Timestamp));
+  		var lastNameCell = row.insertCell(-1);
+  		lastNameCell.appendChild(document.createTextNode(data[i].Title));
+		}
+	document.body.appendChild(table);
+	      
       }      
 	    
 	    
-var table = document.createElement("table");
-for (var i = 0; i < data.length; i++) {
-  var row = table.insertRow(-1);
-  var firstNameCell = row.insertCell(-1);
-  firstNameCell.appendChild(document.createTextNode(data[i].Timestamp));
-  var lastNameCell = row.insertCell(-1);
-  lastNameCell.appendChild(document.createTextNode(data[i].Title));
-}
-document.body.appendChild(table);	    
+	    
 	    
     </script>
