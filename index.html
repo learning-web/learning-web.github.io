@@ -23,13 +23,34 @@ datatable: true
     <input type="text" name="title" placeholder="title"/>
   </div>
 
+<div class="g-recaptcha" id="rcaptcha"  data-sitekey="site key"></div>
+<span id="captcha" style="color:red" /></span> <!-- this will show captcha errors -->
+	
   <div>
     <button type="submit"id="submit-form">Submit</button>
   </div>
 </form>
 </div>
 
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script>
 
+function get_action(form) 
+{
+    var v = grecaptcha.getResponse();
+    if(v.length == 0)
+    {
+        document.getElementById('captcha').innerHTML="You can't leave Captcha Code empty";
+        return false;
+    }
+    else
+    {
+         document.getElementById('captcha').innerHTML="Captcha completed";
+        return true; 
+    }
+}
+
+</script>
 	
 <script>
 $.fn.serializeObject = function() {
