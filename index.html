@@ -111,7 +111,12 @@ $('#test-form').on('submit', function(e) {
 	      
 	      
 	var table = document.createElement("table");
-	table.setAttribute("class","display");
+	table.setAttribute("class","display");	   
+	var headrow = table.insertRow(-1);
+  		var firstNameCell = headrow.insertCell(-1);
+  		firstNameCell.appendChild(document.createTextNode("test"));
+  		var lastNameCell = headrow.insertCell(-1);
+  		lastNameCell.appendChild(document.createTextNode("test));
 	for (var i = 0; i < data.length; i++) {
   		var row = table.insertRow(-1);
   		var firstNameCell = row.insertCell(-1);
