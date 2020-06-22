@@ -35,7 +35,7 @@ datatable: true
 
 <h3 class="section-title"> Open Peer-Matching Requests</h3>	 
 
-<div id="food"></div>
+<div id="requests"></div>
 
 <script>
     grecaptcha.ready(function() {
@@ -117,7 +117,7 @@ $('#test-form').on('submit', function(e) {
   		var lastNameCell = row.insertCell(-1);
   		lastNameCell.appendChild(document.createTextNode(data[i].Title));
 		}
-	document.body.appendChild(table);
+	document.getElementById("requests").appendChild(table);
 	      
       }      
 	    
