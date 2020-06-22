@@ -3,19 +3,9 @@ layout: default
 datatable: true
 ---
 
-<form onsubmit="myFunction()">
-  Enter name: <input type="text">
-  <input type="submit">
-</form>
-
-<script>
-function myFunction() {
-  console.log("thansk");
-}
-</script>
 
 
-<div id="formcontainer" tyle="border: 2px dotted #111;max-width: 300px;padding: 20px;margin-top: 20px;">
+<div id="formcontainer" style="border: 2px dotted #111;max-width: 300px;padding: 20px;margin-top: 20px;">
 <form id="test-form" onsubmit="sayThanks()">
   
   <div>
@@ -83,7 +73,7 @@ $('#submit-form').on('click', function(e) {
     dataType: "json",
     data: $form.serializeObject()
   }).done(function(e){console.log(e);}
-     document.getElementById("formcontainer").innerHTML = "Your message";
+     document.getElementById("formcontainer").innerHTML = "Thanks! You'll receive a message once you're matched.";
   );
 })
 </script>
