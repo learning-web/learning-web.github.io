@@ -130,24 +130,7 @@ $('#test-form').on('submit', function(e) {
 
         //document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].Timestamp, data[1].Title ].join(", ");
         // console.log(data);
-	      
-	      
-	var table = document.createElement("table");
-	table.setAttribute("class","display");	   
- 
-	for (var i = 0; i < data.length; i++) {
-  		var row = table.insertRow(-1);
-  		var firstNameCell = row.insertCell(-1);
-  		firstNameCell.appendChild(document.createTextNode(data[i].Timestamp));
-  		var lastNameCell = row.insertCell(-1);
-  		lastNameCell.appendChild(document.createTextNode(data[i].Title));
-		}
-
-	document.getElementById("requests").appendChild(table);
-	      	var table = document.createElement("table");
-	table.setAttribute("class","display");	   
- 
-	      
+	      	      
 	tbl=document.getElementById("requests2")      
 	for (var i = 0; i < data.length; i++) {
   		var row = tbl.insertRow(-1);
