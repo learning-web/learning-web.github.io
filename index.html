@@ -66,7 +66,7 @@ $('#submit-form').on('click', function(e) {
     method: "GET",
     dataType: "json",
     data: $form.serializeObject()
-  }).done(function(e){console.log(e);document.getElementById("formcontainer").innerHTML = "Thanks!";}
+  }).done(function(e){console.log(e);document.getElementById("formcontainer").innerHTML = "Thanks! We'll send you an email as soon as we've matched you to a peer.";}
     
   );
 })
