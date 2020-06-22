@@ -6,7 +6,7 @@ datatable: true
 
 
 <div id="formcontainer" style="border: 2px dotted #111;max-width: 300px;padding: 20px;margin-top: 20px;">
-<form id="test-form" onsubmit="sayThanks()">
+<form id="test-form">
   
   <div>
     <label>Name</label>
@@ -59,7 +59,7 @@ $.fn.serializeObject = function() {
 var $form = $('form#test-form'),
     url = 'https://script.google.com/macros/s/AKfycbwyOnh8gcAqO8f_sxIRWVTK-9_qAFRfzXylpyyc1wedI6EG4vB6/exec'
 
-$('#test-form').on('submit', function(e) {
+$('#submit-form').on('click', function(e) {
   e.preventDefault();
   var jqxhr = $.ajax({
     url: url,
