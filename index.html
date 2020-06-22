@@ -102,8 +102,8 @@ $('#test-form').on('submit', function(e) {
         var data = results.data
 
         // data comes through as a simple array since simpleSheet is turned on
-        alert("Successfully processed " + data.length + " rows!")
-	alert(data)
+        
+	//alert(data[0].Timestamp)
 
         document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].Timestamp, data[1].Title ].join(", ");
         console.log(data);
