@@ -68,7 +68,23 @@ datatable: true
     });
 </script>
  
+<script>
+function getDate()
+{
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth()+1; //January is 0!
+    var yyyy = today.getFullYear();
+    if(dd<10){dd='0'+dd} if(mm<10){mm='0'+mm}
+    today = yyyy+""+mm+""+dd;
 
+    document.getElementById("todayDate").value = today;
+    console.log(today);
+}
+
+getDate();
+
+</script>
 	
 <script>
 $.fn.serializeObject = function() {
@@ -90,20 +106,7 @@ $.fn.serializeObject = function() {
 var $form = $('form#test-form'),
     url = 'https://script.google.com/macros/s/AKfycbwyOnh8gcAqO8f_sxIRWVTK-9_qAFRfzXylpyyc1wedI6EG4vB6/exec'
 
-function getDate()
-{
-    var today = new Date();
-    var dd = today.getDate();
-    var mm = today.getMonth()+1; //January is 0!
-    var yyyy = today.getFullYear();
-    if(dd<10){dd='0'+dd} if(mm<10){mm='0'+mm}
-    today = yyyy+""+mm+""+dd;
 
-    document.getElementById("todayDate").value = today;
-}
-
-getDate();
-console.log(today);
 
 $('#test-form').on('submit', function(e) {
   e.preventDefault();
