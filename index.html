@@ -61,7 +61,7 @@ var $form = $('form#test-form'),
 
 say
 
-$('#submit-form').on('submit', function(e) {
+$('#test-form').on('submit', function(e) {
   e.preventDefault();
   var jqxhr = $.ajax({
     url: url,
