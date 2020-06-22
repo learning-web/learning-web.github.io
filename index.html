@@ -3,8 +3,8 @@ layout: default
 datatable: true
 ---
 
-<div id="first" style="border: 2px dotted #111;max-width: 300px;padding: 20px;margin-top: 20px;">
-<form id="test-form">
+<div sid="formcontainer" tyle="border: 2px dotted #111;max-width: 300px;padding: 20px;margin-top: 20px;">
+<form id="test-form" onsubmit="sayThanks()">
   
   <div>
     <label>Field 1</label>
@@ -37,10 +37,8 @@ datatable: true
 </div>
 
 <script>
-	jQuery("#submit-form").click(function(e)) {
-    e.preventDefault();
-    jQuery('#first').hide();
-    jQuery('#show').show();
+function sayThanks() {
+  document.getElementById("formcontainer").innerHTML = "Your message";
 }
 </script>
 	
