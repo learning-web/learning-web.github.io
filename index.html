@@ -3,6 +3,7 @@ layout: default
 datatable: true
 ---
 
+<div id="first">
 <form id="test-form">
   
   <div>
@@ -28,8 +29,21 @@ datatable: true
   <div>
     <button type="submit"id="submit-form">Submit</button>
   </div>
-
 </form>
+</div>
+
+<div id="second" class="2" style="display:none">
+    test
+</div>
+
+<script>
+	jQuery("#submit-btn").click(function(e)) {
+    e.preventDefault();
+    jQuery('#first').hide();
+    jQuery('#show').show();
+}
+</script>
+	
 <script>
 $.fn.serializeObject = function() {
 	var o = {};
