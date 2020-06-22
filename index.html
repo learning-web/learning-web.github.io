@@ -120,7 +120,7 @@ $('#test-form').on('submit', function(e) {
   		var lastNameCell = row.insertCell(-1);
   		lastNameCell.appendChild(document.createTextNode(data[i].Title));
 		}
-	document.getElementById("requests").appendChild(table);
+	document.getElementById("requests").innerHTML =table;
 	      
       }      
 	    
