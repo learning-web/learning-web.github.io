@@ -38,12 +38,6 @@ datatable: true
     test
 </div>
 
-<script>
-function sayThanks() {
-  console.log("thansk");
-  document.getElementById("formcontainer").innerHTML = "Your message";
-}
-</script>
 	
 <script>
 $.fn.serializeObject = function() {
@@ -72,8 +66,8 @@ $('#submit-form').on('click', function(e) {
     method: "GET",
     dataType: "json",
     data: $form.serializeObject()
-  }).done(function(e){console.log(e);}
-     document.getElementById("formcontainer").innerHTML = "Thanks!";
+  }).done(function(e){console.log(e);document.getElementById("formcontainer").innerHTML = "Thanks!";}
+    
   );
 })
 </script>
