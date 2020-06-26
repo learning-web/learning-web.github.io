@@ -134,4 +134,10 @@ function makeSortable(error, options, response) {
   $(options.user.target).DataTable();
 }
 
+
+$(document).ready(function() {
+    $('#statistics').DataTable( {
+        "dom": '<"top"i>rt<"bottom"flp><"clear">'
+    } );
+} );
 </script>
