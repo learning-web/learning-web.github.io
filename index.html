@@ -52,24 +52,7 @@ datatable: true
 
 
 
-<div id="requests"></div>
-
-<table id="requests2" class="display">
-<thead>
-  <tr>
-    <th>Title</th>
-    <th>Date</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td></td>
-    <td></td>
-  </tr>
-</tbody>
-</table>
-
-<table id="statistics" class="display table table-condensed table-striped"></table>
+<table id="statistics" class="display"></table>
 
 
 <script>
@@ -138,45 +121,6 @@ $('#test-form').on('submit', function(e) {
 </script>
 
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.2.0/papaparse.min.js"></script>
-    <script type="text/javascript">
-      var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSVX14YR0v2LQP2CbUXYFvRWO_uwmQgatwl_2QPPjH7CpqKuyLewlSaYu0FRiaJA2pmvzujqR0pvSCD/pub?gid=0&single=true&output=csv';
-
-      function init() {
-        Papa.parse(public_spreadsheet_url, {
-          download: true,
-          header: true,
-          complete: showInfo
-        })
-      }
-	    
-
-      window.addEventListener('DOMContentLoaded', init)
-
-      function showInfo(results) {
-        var data = results.data
-
-        // data comes through as a simple array since simpleSheet is turned on
-        
-	//alert(data[0].Timestamp)
-
-        //document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].Timestamp, data[1].Title ].join(", ");
-        // console.log(data);
-	      	      
-	tbl=document.getElementById("requests2")      
-	for (var i = 0; i < data.length; i++) {
-  		var row = tbl.insertRow(-1);
-  		var firstNameCell = row.insertCell(-1);
-  		firstNameCell.appendChild(document.createTextNode(data[i].title));
-  		var lastNameCell = row.insertCell(-1);
-  		lastNameCell.appendChild(document.createTextNode(data[i].date));
-		}
-	      
-	      
-      }      
-	    
-	        
-    </script>
 
 
 <!-- Load jQuery and Sheetrock from CDNJS -->
