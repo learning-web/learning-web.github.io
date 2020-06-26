@@ -8,18 +8,11 @@ permalink: /faq/
 
 TODO
 
-**What does an expedition cost?**
+**How long does it take to get matched?**
 
-Fees are determined individually by each guide and are discussed in the initial meeting.
+**How are people matched?**
 
-**Will all learning materials be provided by the guide?**
 
-While in some cases this can be the case, typically participants have to buy the relevant textbooks themselves.
+**How can I become an educator?**
 
-**Are personalized group expeditions possible?**
 
-Of course, simply reach out to the guide you want to hire and tell him or her about your idea.
-
-**How can I become a guide?**
-
-TODO

@@ -1,0 +1,131 @@
+---
+layout: default
+title: Educators
+permalink: /educators/
+datatable: true
+---
+
+
+
+
+
+<h3 class="section-title" style="margin-top:20px;"> Open Peer-Matching Requests</h3>  
+<table id="educators" class="table table-condensed table-striped"></table>
+
+
+<h3 class="section-title">Apply as an Educator</h3>	 
+
+
+<div id="formcontainer" style="border: 2px dotted #111;max-width: 600px;padding: 20px;margin-top: 20px;margin:0 auto;text-align:center; ">
+<form id="test-form">
+    <input type="text" name="title" placeholder="Title of the book or article you want to discuss" required />
+    <input type="text" name="name" placeholder="Your Name" required/>
+    <input type="text" name="email" placeholder="Your Email-Address" required/>
+    <input type="hidden" name="date" id="todayDate"/>
+
+	<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+	<input type="hidden" name="action" value="validate_captcha">
+    <div>
+    <button class="btn btn-0"  type="submit"id="submit-form"><span>Submit</span></button>
+    </div>
+
+    <div style="font-size:8px;color:#D3D3D3;margin-top:10px">This form is protected by reCAPTCHA and the Google
+    <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+    <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+    </form></div>
+</div>
+
+
+<script>
+    grecaptcha.ready(function() {
+    // do request for recaptcha token
+    // response is promise with passed token
+        grecaptcha.execute('6Lfh56cZAAAAAM4KbndpCBEPzvTRoi1IYmSXI0ar', {action:'validate_captcha'})
+                  .then(function(token) {
+            // add token value to form
+            document.getElementById('g-recaptcha-response').value = token;
+        });
+    });
+</script>
+ 
+<script>
+function getDate()
+{
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth()+1; //January is 0!
+    var yyyy = today.getFullYear();
+    if(dd<10){dd='0'+dd} if(mm<10){mm='0'+mm}
+    today = dd+"."+mm+"."+yyyy;
+
+    document.getElementById("todayDate").value = today;
+    console.log(today);
+}
+
+getDate();
+
+</script>
+	
+<script>
+$.fn.serializeObject = function() {
+	var o = {};
+	var a = this.serializeArray();
+	$.each(a, function() {
+		if (o[this.name]) {
+			if (!o[this.name].push) {
+				o[this.name] = [o[this.name]];
+			}
+			o[this.name].push(this.value || '');
+		} else {
+			o[this.name] = this.value || '';
+		}
+	});
+	return o;
+};
+
+var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/AKfycbx8QeG-n46AjOJG7Inhsxs7fXEfmYVWPtdZsv4N/exec'
+
+
+
+$('#test-form').on('submit', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).done(function(e){console.log(e);document.getElementById("formcontainer").innerHTML = "Thanks! We'll send you an email as soon as you've been approved.";}
+    
+  );
+})
+</script>
+
+
+
+
+<!-- Load jQuery and Sheetrock from CDNJS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/1.1.4/dist/sheetrock.min.js"></script>
+
+
+<script>
+// Define spreadsheet URL.
+var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/1OLMSsCiPgN72i929Ue5wTUJRdZM4qfNOCbqQFuFJHJY/edit#gid=0';
+
+// Load an entire worksheet.
+$('#educators').sheetrock({
+  url: mySpreadsheet,
+  callback: makeSortable
+
+});
+
+function makeSortable(error, options, response) {
+  // Target is not a jQuery object, so we need to call jQuery
+  // explicitly.
+  $(options.user.target).DataTable();
+}
+
+
+
+
+</script>
