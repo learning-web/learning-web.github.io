@@ -134,5 +134,14 @@ var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/1gVrIMvLa_fAwVphZnep
 // Load an entire worksheet.
 $('#statistics').sheetrock({
   url: mySpreadsheet
+  callback: makeSortable
+
 });
+
+function makeSortable(error, options, response) {
+  // Target is not a jQuery object, so we need to call jQuery
+  // explicitly.
+  $(options.user.target).DataTable();
+}
+
 </script>
