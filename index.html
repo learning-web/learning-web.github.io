@@ -69,6 +69,9 @@ datatable: true
 </tbody>
 </table>
 
+<table id="statistics" class="table table-condensed table-striped"></table>
+
+
 <script>
     grecaptcha.ready(function() {
     // do request for recaptcha token
@@ -179,11 +182,10 @@ $('#test-form').on('submit', function(e) {
 <!-- Load jQuery and Sheetrock from CDNJS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/1.1.4/dist/sheetrock.min.js"></script>
 
-<table id="statistics" class="table table-condensed table-striped"></table>
 
 <script>
 // Define spreadsheet URL.
-var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/1gVrIMvLa_fAwVphZnepCstK3Q3Ydo3cCzDIyyRichPM/edit?usp=sharing';
+var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/1qT1LyvoAcb0HTsi2rHBltBVpUBumAUzT__rhMvrz5Rk/edit#gid=0';
 
 // Load an entire worksheet.
 $('#statistics').sheetrock({
