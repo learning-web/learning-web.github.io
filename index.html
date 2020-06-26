@@ -172,6 +172,22 @@ $('#test-form').on('submit', function(e) {
 	      
       }      
 	    
-	       
-	    
+	        
     </script>
+
+
+<!-- Load jQuery and Sheetrock from CDNJS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/1.1.4/dist/sheetrock.min.js"></script>
+
+<table id="statistics" class="table table-condensed table-striped"></table>
+
+<script>
+// Define spreadsheet URL.
+var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/1gVrIMvLa_fAwVphZnepCstK3Q3Ydo3cCzDIyyRichPM/edit?usp=sharing';
+
+// Load an entire worksheet.
+$('#statistics').sheetrock({
+  url: mySpreadsheet
+});
+</script>
