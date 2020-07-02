@@ -69,10 +69,12 @@ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
     color: #353535;
-    background-color: #F2E39B;
+    background-color: none;
 }
 
-.nav a {background-color: #F2E39B;}
+.nav a {background-color: none;}
+
+header a {background-color: none;}
 
 
 h1, h2, h3, h4, h5, h6 {
