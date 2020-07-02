@@ -67,14 +67,27 @@ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
 .site-name a {
 font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-    font-weight: 700;
-    color: #353535;
-    background-color: none;
+fonz-size:18px;
+font-weight:400px;
+color: #FFFFFF
+line-height:21px;
+text-decoration:none;
+background-color: transparent;
 }
 
-.nav a {background-color: none;}
 
-header a {background-color: none;}
+
+.nav a {
+font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+fonz-size:14px;
+font-weight:400px;
+color: #FFFFFF
+line-height:21px;
+text-decoration:none;
+background-color: transparent;
+}
+
+header a {background-color: transparent;}
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -218,7 +231,13 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+    border-bottom: 1px solid #eee;
+    background-color: #353535;
+    border: 1px solid #353535;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 70px;
 
   @include mobile {
     text-align: center;
