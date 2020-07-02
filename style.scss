@@ -27,9 +27,12 @@ html {
 }
 
 body {
-	background: #fffff8;
- font-family: ETBembo, "Chronicle Text G2", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  color: #111;
+    font-family: 'Roboto Mono', 'Courier', 'Helvetica', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #4B4B4B;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 p, li {
@@ -63,15 +66,20 @@ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
 
 .site-name a {
-    color: black !important;
-    font-family: ETBembo, "Chronicle Text G2", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    color: #353535;
 }
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: ETBembo, "Chronicle Text G2", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  color: $darkerGray;
-  font-weight: bold;
+ font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    color: #353535;
+    margin-bottom: 35px;
+    font-size: 25px;
+    text-decoration: none;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -87,11 +95,13 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
-  text-transform: uppercase;
-    letter-spacing: 4px;
-    margin-bottom: ($spacer * 2);
-    position: relative;
+ font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    color: #353535;
+    margin-bottom: 35px;
+    font-size: 25px;
+    text-decoration: none;
 }
 
 h3 {
@@ -103,7 +113,17 @@ h4 {
   color: $gray;
 }
 
-
+body a {
+  
+  color: #4B4B4B;
+    text-decoration: none;
+    background-color: #F2E39B;
+    padding: 1px 5px;
+    border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
 
 a {
   color: $red;
